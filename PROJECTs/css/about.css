@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Kumbh Sans' sans-serif;
+}
+body {
+    color: #ffff;
+    height: 100vh;
+    width: 100%;
+    background: #131313;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+h2 {
+   position: fixed;
+    padding-left: 17%;
+    top: 0;
+    margin-top: 13%;
+    font-size: 30px;
+}
+.contact-right {
+    flex-basis: 60%;
+    top: 0;
+    margin-top: 15%;
+    padding-left: 30%;
+    flex-basis: 60%;
+    position: fixed;
+}
+.contact-right form {
+    width: 100%;
+    position: fixed;
+}
+form input, form textarea {
+    width: 50%;
+    border: 0;
+    color: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 18px;
+    border-radius: 6px;
+    position: relative;
+   
+}
+
+.btn {
+    display: flex;
+    color: #ffff;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: 100%;
+    background-color: #f77062;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #4837ff;
+    transition:  0.3s ease;
+}
+
+.contact-left {
+    margin-top: 3%;
+    flex-basis: 60%;
+    padding-top: 20%;
+    padding: 7%;
+    position:relative;
+    text-decoration: none;
+    font-size:30px;
+}
+.social-icon {
+    margin-top: 30px;
+}
+
+.social-icon a{
+   
+     text-decoration: none;
+     font-size: 30px;
+     margin-right: 15px;
+     color: #ffff;
+     display: inline-block;
+     transition: transform 0.5s;
+     
+}
+.social-icon a:hover{
+    color: #f004f0;
+    transform: translateY(-5px)
+}
+.sub-title {
+    color: crimson;
+
+}
+@media screen and  (max-width: 1400px)
+{
+   
+    body {
+        color: #ffff;
+        height: 100vh;
+        width: 100%;
+        background: #131313;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+   
+    .contact-right {
+        flex-basis: 60%;
+        padding-top: 30%;
+        padding-left: 20%;
+        position: fixed;
+
+    }
+    .contact-right form {
+        width: 100%;
+        margin-left: 5px;
+        position: fixed;
+      
+    }
+    form input, form textarea {
+        width: 75%;
+        border: 0;
+        color: #262626;
+        padding: 15px;
+       
+        font-size: 15px;
+        border-radius: 6px;
+        
+       
+    }
+    
+    .btn {
+        display: flex;
+        color: #ffff;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        height: 100%;
+        background-color: #f77062;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .btn:hover {
+        background: #4837ff;
+        transition:  0.3s ease;
+    }
+    
+    .contact-left {
+        margin-top: 110%;
+        flex-basis: 60%;
+        padding-top: 50%;
+        padding: 7%;
+        text-decoration: none;
+        font-size:10px;
+        position: relative;
+    }
+    .social-icon {
+        margin-top: 5px;
+    }
+    
+    .social-icon a{
+       
+         text-decoration: none;
+         font-size: 30px;
+         margin-right: 15px;
+         color: #ffff;
+         display: inline-block;
+         transition: transform 0.5s;
+         
+    }
+    .social-icon a:hover{
+        color: #f004f0;
+        transform: translateY(-5px)
+    }
+    .sub-title {
+        font-size: 30px;
+        color: crimson;
+    
+    }
+    h2 {
+        padding-top: 30%;
+         font-size: 15px;
+         margin-left: 13%;
+     }
+    
+}
+
